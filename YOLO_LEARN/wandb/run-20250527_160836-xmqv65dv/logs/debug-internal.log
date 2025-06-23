@@ -1,0 +1,7 @@
+{"time":"2025-05-27T16:08:36.169496+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250527_160836-xmqv65dv\\logs\\debug-core.log"}
+{"time":"2025-05-27T16:08:36.8476202+08:00","level":"INFO","msg":"created new stream","id":"xmqv65dv"}
+{"time":"2025-05-27T16:08:36.8476202+08:00","level":"INFO","msg":"stream: started","id":"xmqv65dv"}
+{"time":"2025-05-27T16:08:36.8476202+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xmqv65dv"}
+{"time":"2025-05-27T16:08:36.8476202+08:00","level":"INFO","msg":"handler: started","stream_id":"xmqv65dv"}
+{"time":"2025-05-27T16:08:36.8476202+08:00","level":"INFO","msg":"sender: started","stream_id":"xmqv65dv"}
+{"time":"2025-05-27T16:08:37.561357+08:00","level":"INFO","msg":"Starting system monitor"}

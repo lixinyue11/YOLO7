@@ -1,0 +1,240 @@
+_wandb:
+    value:
+        cli_version: 0.19.10
+        m: []
+        python_version: 3.10.3
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 41
+                - 49
+                - 53
+                - 55
+                - 105
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 41
+                - 49
+                - 53
+                - 55
+                - 105
+            "3":
+                - 13
+                - 16
+                - 19
+                - 23
+                - 55
+            "4": 3.10.3
+            "5": 0.19.10
+            "8":
+                - 3
+                - 5
+            "12": 0.19.10
+            "13": windows-amd64
+adam:
+    value: false
+artifact_alias:
+    value: latest
+batch_size:
+    value: 4
+bbox_interval:
+    value: -1
+bucket:
+    value: ""
+cache_images:
+    value: false
+cfg:
+    value: cfg/training/yolov7.yaml
+data:
+    value: data/neu.yaml
+data_dict:
+    value:
+        download: bash ./scripts/get_coco.sh
+        names:
+            - crazing
+            - inclusion
+            - patches
+            - pitted_surface
+            - rolled-in_scale
+            - scratches
+        nc: 6
+        train: D:\\PycharmProject\\yolov7-main\\NEU-DET\\train.txt
+        val: D:\\PycharmProject\\yolov7-main\\NEU-DET\\val.txt
+device:
+    value: "0"
+entity:
+    value: null
+epochs:
+    value: 20
+evole:
+    value: false
+evolve:
+    value: false
+exist_ok:
+    value: false
+freeze:
+    value:
+        - 0
+global_rank:
+    value: -1
+hyp:
+    value:
+        anchor_t: 4
+        box: 0.05
+        cls: 0.3
+        cls_pw: 1
+        copy_paste: 0
+        degrees: 0
+        fl_gamma: 0
+        fliplr: 0.5
+        flipud: 0
+        hsv_h: 0.015
+        hsv_s: 0.7
+        hsv_v: 0.4
+        iou_t: 0.2
+        loss_ota: 1
+        lr0: 0.01
+        lrf: 0.1
+        mixup: 0.15
+        momentum: 0.937
+        mosaic: 1
+        obj: 0.7
+        obj_pw: 1
+        paste_in: 0.15
+        perspective: 0
+        scale: 0.9
+        shear: 0
+        translate: 0.2
+        warmup_bias_lr: 0.1
+        warmup_epochs: 3
+        warmup_momentum: 0.8
+        weight_decay: 0.0005
+image_weights:
+    value: false
+img_size:
+    value:
+        - 640
+        - 640
+label_smoothing:
+    value: 0
+linear_lr:
+    value: false
+local_rank:
+    value: -1
+multi_scale:
+    value: false
+name:
+    value: yolov7
+noautoanchor:
+    value: false
+nosave:
+    value: false
+notest:
+    value: false
+opt:
+    value:
+        adam: false
+        artifact_alias: latest
+        batch_size: 4
+        bbox_interval: -1
+        bucket: ""
+        cache_images: false
+        cfg: cfg/training/yolov7.yaml
+        data: data/neu.yaml
+        device: "0"
+        entity: null
+        epochs: 20
+        evole: false
+        evolve: false
+        exist_ok: false
+        freeze:
+            - 0
+        global_rank: -1
+        hyp:
+            anchor_t: 4
+            box: 0.05
+            cls: 0.3
+            cls_pw: 1
+            copy_paste: 0
+            degrees: 0
+            fl_gamma: 0
+            fliplr: 0.5
+            flipud: 0
+            hsv_h: 0.015
+            hsv_s: 0.7
+            hsv_v: 0.4
+            iou_t: 0.2
+            loss_ota: 1
+            lr0: 0.01
+            lrf: 0.1
+            mixup: 0.15
+            momentum: 0.937
+            mosaic: 1
+            obj: 0.7
+            obj_pw: 1
+            paste_in: 0.15
+            perspective: 0
+            scale: 0.9
+            shear: 0
+            translate: 0.2
+            warmup_bias_lr: 0.1
+            warmup_epochs: 3
+            warmup_momentum: 0.8
+            weight_decay: 0.0005
+        image_weights: false
+        img_size:
+            - 640
+            - 640
+        label_smoothing: 0
+        linear_lr: false
+        local_rank: -1
+        multi_scale: false
+        name: yolov7
+        noautoanchor: false
+        nosave: false
+        notest: false
+        project: runs/train
+        quad: false
+        rect: false
+        resume: false
+        save_dir: runs\train\yolov74
+        save_period: -1
+        single_cls: false
+        sync_bn: false
+        total_batch_size: 4
+        upload_dataset: false
+        weights: yolov7.pt
+        workers: 1
+        world_size: 1
+project:
+    value: runs/train
+quad:
+    value: false
+rect:
+    value: false
+resume:
+    value: false
+save_dir:
+    value: runs\train\yolov74
+save_period:
+    value: -1
+single_cls:
+    value: false
+sync_bn:
+    value: false
+total_batch_size:
+    value: 4
+upload_dataset:
+    value: false
+weights:
+    value: yolov7.pt
+workers:
+    value: 1
+world_size:
+    value: 1

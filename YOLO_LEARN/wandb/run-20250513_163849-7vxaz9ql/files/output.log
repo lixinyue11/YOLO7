@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 163, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 69, in train
+    model = Model(opt.cfg, ch=3, nc=6, anchors=hyp.get('anchors')).to(device)  # create
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 251, in __init__
+    with open(cfg) as f:
+FileNotFoundError: [Errno 2] No such file or directory: ''
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 163, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 69, in train
+    model = Model(opt.cfg, ch=3, nc=6, anchors=hyp.get('anchors')).to(device)  # create
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 251, in __init__
+    with open(cfg) as f:
+FileNotFoundError: [Errno 2] No such file or directory: ''

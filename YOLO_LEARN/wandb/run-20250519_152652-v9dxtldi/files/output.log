@@ -1,0 +1,136 @@
+2025-05-19 15:26:54,990 - models.yolo - INFO - Overriding model.yaml nc=80 with nc=6
+2025-05-19 15:26:54,991 - models.yolo - INFO -
+                 from  n    params  module                                  arguments
+2025-05-19 15:26:54,991 - models.yolo - INFO -   0                -1  1       928  物体检测.YOLO_LEARN.models.common.Conv      [3, 32, 3, 1]
+2025-05-19 15:26:54,992 - models.yolo - INFO -   1                -1  1     18560  物体检测.YOLO_LEARN.models.common.Conv      [32, 64, 3, 2]
+2025-05-19 15:26:54,993 - models.yolo - INFO -   2                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:54,993 - models.yolo - INFO -   3                -1  1     73984  物体检测.YOLO_LEARN.models.common.Conv      [64, 128, 3, 2]
+2025-05-19 15:26:54,994 - models.yolo - INFO -   4                -1  1      8320  物体检测.YOLO_LEARN.models.common.Conv      [128, 64, 1, 1]
+2025-05-19 15:26:54,994 - models.yolo - INFO -   5                -2  1      8320  物体检测.YOLO_LEARN.models.common.Conv      [128, 64, 1, 1]
+2025-05-19 15:26:54,994 - models.yolo - INFO -   6                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:54,995 - models.yolo - INFO -   7                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:54,995 - models.yolo - INFO -   8                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:54,996 - models.yolo - INFO -   9                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:54,996 - models.yolo - INFO -  10  [-1, -3, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:54,996 - models.yolo - INFO -  11                -1  1     66048  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 1, 1]
+2025-05-19 15:26:54,996 - models.yolo - INFO -  12                -1  1         0  物体检测.YOLO_LEARN.models.common.MP        []
+2025-05-19 15:26:54,996 - models.yolo - INFO -  13                -1  1     33024  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 1, 1]
+2025-05-19 15:26:54,997 - models.yolo - INFO -  14                -3  1     33024  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 1, 1]
+2025-05-19 15:26:54,998 - models.yolo - INFO -  15                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 2]
+2025-05-19 15:26:54,998 - models.yolo - INFO -  16          [-1, -3]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:54,998 - models.yolo - INFO -  17                -1  1     33024  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 1, 1]
+2025-05-19 15:26:54,998 - models.yolo - INFO -  18                -2  1     33024  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 1, 1]
+2025-05-19 15:26:54,999 - models.yolo - INFO -  19                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,000 - models.yolo - INFO -  20                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,000 - models.yolo - INFO -  21                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,001 - models.yolo - INFO -  22                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,001 - models.yolo - INFO -  23  [-1, -3, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,002 - models.yolo - INFO -  24                -1  1    263168  物体检测.YOLO_LEARN.models.common.Conv      [512, 512, 1, 1]
+2025-05-19 15:26:55,003 - models.yolo - INFO -  25                -1  1         0  物体检测.YOLO_LEARN.models.common.MP        []
+2025-05-19 15:26:55,003 - models.yolo - INFO -  26                -1  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,004 - models.yolo - INFO -  27                -3  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,006 - models.yolo - INFO -  28                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 2]
+2025-05-19 15:26:55,006 - models.yolo - INFO -  29          [-1, -3]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,007 - models.yolo - INFO -  30                -1  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,007 - models.yolo - INFO -  31                -2  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,009 - models.yolo - INFO -  32                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,011 - models.yolo - INFO -  33                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,012 - models.yolo - INFO -  34                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,015 - models.yolo - INFO -  35                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,016 - models.yolo - INFO -  36  [-1, -3, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,018 - models.yolo - INFO -  37                -1  1   1050624  物体检测.YOLO_LEARN.models.common.Conv      [1024, 1024, 1, 1]
+2025-05-19 15:26:55,019 - models.yolo - INFO -  38                -1  1         0  物体检测.YOLO_LEARN.models.common.MP        []
+2025-05-19 15:26:55,021 - models.yolo - INFO -  39                -1  1    525312  物体检测.YOLO_LEARN.models.common.Conv      [1024, 512, 1, 1]
+2025-05-19 15:26:55,021 - models.yolo - INFO -  40                -3  1    525312  物体检测.YOLO_LEARN.models.common.Conv      [1024, 512, 1, 1]
+2025-05-19 15:26:55,029 - models.yolo - INFO -  41                -1  1   2360320  物体检测.YOLO_LEARN.models.common.Conv      [512, 512, 3, 2]
+2025-05-19 15:26:55,029 - models.yolo - INFO -  42          [-1, -3]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,030 - models.yolo - INFO -  43                -1  1    262656  物体检测.YOLO_LEARN.models.common.Conv      [1024, 256, 1, 1]
+2025-05-19 15:26:55,031 - models.yolo - INFO -  44                -2  1    262656  物体检测.YOLO_LEARN.models.common.Conv      [1024, 256, 1, 1]
+2025-05-19 15:26:55,033 - models.yolo - INFO -  45                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,036 - models.yolo - INFO -  46                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,038 - models.yolo - INFO -  47                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,040 - models.yolo - INFO -  48                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,040 - models.yolo - INFO -  49  [-1, -3, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,043 - models.yolo - INFO -  50                -1  1   1050624  物体检测.YOLO_LEARN.models.common.Conv      [1024, 1024, 1, 1]
+2025-05-19 15:26:55,065 - models.yolo - INFO -  51                -1  1   7609344  物体检测.YOLO_LEARN.models.common.SPPCSPC   [1024, 512, 1]
+2025-05-19 15:26:55,066 - models.yolo - INFO -  52                -1  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,066 - models.yolo - INFO -  53                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+2025-05-19 15:26:55,068 - models.yolo - INFO -  54                37  1    262656  物体检测.YOLO_LEARN.models.common.Conv      [1024, 256, 1, 1]
+2025-05-19 15:26:55,068 - models.yolo - INFO -  55          [-1, -2]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,069 - models.yolo - INFO -  56                -1  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,069 - models.yolo - INFO -  57                -2  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,071 - models.yolo - INFO -  58                -1  1    295168  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 3, 1]
+2025-05-19 15:26:55,072 - models.yolo - INFO -  59                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,073 - models.yolo - INFO -  60                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,074 - models.yolo - INFO -  61                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,074 - models.yolo - INFO -  62[-1, -2, -3, -4, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,075 - models.yolo - INFO -  63                -1  1    262656  物体检测.YOLO_LEARN.models.common.Conv      [1024, 256, 1, 1]
+2025-05-19 15:26:55,075 - models.yolo - INFO -  64                -1  1     33024  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 1, 1]
+2025-05-19 15:26:55,075 - models.yolo - INFO -  65                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+2025-05-19 15:26:55,076 - models.yolo - INFO -  66                24  1     65792  物体检测.YOLO_LEARN.models.common.Conv      [512, 128, 1, 1]
+2025-05-19 15:26:55,076 - models.yolo - INFO -  67          [-1, -2]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,076 - models.yolo - INFO -  68                -1  1     33024  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 1, 1]
+2025-05-19 15:26:55,077 - models.yolo - INFO -  69                -2  1     33024  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 1, 1]
+2025-05-19 15:26:55,077 - models.yolo - INFO -  70                -1  1     73856  物体检测.YOLO_LEARN.models.common.Conv      [128, 64, 3, 1]
+2025-05-19 15:26:55,078 - models.yolo - INFO -  71                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:55,078 - models.yolo - INFO -  72                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:55,079 - models.yolo - INFO -  73                -1  1     36992  物体检测.YOLO_LEARN.models.common.Conv      [64, 64, 3, 1]
+2025-05-19 15:26:55,079 - models.yolo - INFO -  74[-1, -2, -3, -4, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,080 - models.yolo - INFO -  75                -1  1     65792  物体检测.YOLO_LEARN.models.common.Conv      [512, 128, 1, 1]
+2025-05-19 15:26:55,080 - models.yolo - INFO -  76                -1  1         0  物体检测.YOLO_LEARN.models.common.MP        []
+2025-05-19 15:26:55,080 - models.yolo - INFO -  77                -1  1     16640  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 1, 1]
+2025-05-19 15:26:55,080 - models.yolo - INFO -  78                -3  1     16640  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 1, 1]
+2025-05-19 15:26:55,081 - models.yolo - INFO -  79                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 2]
+2025-05-19 15:26:55,081 - models.yolo - INFO -  80      [-1, -3, 63]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,082 - models.yolo - INFO -  81                -1  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,082 - models.yolo - INFO -  82                -2  1    131584  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 1, 1]
+2025-05-19 15:26:55,083 - models.yolo - INFO -  83                -1  1    295168  物体检测.YOLO_LEARN.models.common.Conv      [256, 128, 3, 1]
+2025-05-19 15:26:55,085 - models.yolo - INFO -  84                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,085 - models.yolo - INFO -  85                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,086 - models.yolo - INFO -  86                -1  1    147712  物体检测.YOLO_LEARN.models.common.Conv      [128, 128, 3, 1]
+2025-05-19 15:26:55,086 - models.yolo - INFO -  87[-1, -2, -3, -4, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,087 - models.yolo - INFO -  88                -1  1    262656  物体检测.YOLO_LEARN.models.common.Conv      [1024, 256, 1, 1]
+2025-05-19 15:26:55,087 - models.yolo - INFO -  89                -1  1         0  物体检测.YOLO_LEARN.models.common.MP        []
+2025-05-19 15:26:55,087 - models.yolo - INFO -  90                -1  1     66048  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 1, 1]
+2025-05-19 15:26:55,088 - models.yolo - INFO -  91                -3  1     66048  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 1, 1]
+2025-05-19 15:26:55,090 - models.yolo - INFO -  92                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 2]
+2025-05-19 15:26:55,091 - models.yolo - INFO -  93      [-1, -3, 51]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,092 - models.yolo - INFO -  94                -1  1    525312  物体检测.YOLO_LEARN.models.common.Conv      [1024, 512, 1, 1]
+2025-05-19 15:26:55,093 - models.yolo - INFO -  95                -2  1    525312  物体检测.YOLO_LEARN.models.common.Conv      [1024, 512, 1, 1]
+2025-05-19 15:26:55,097 - models.yolo - INFO -  96                -1  1   1180160  物体检测.YOLO_LEARN.models.common.Conv      [512, 256, 3, 1]
+2025-05-19 15:26:55,099 - models.yolo - INFO -  97                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,101 - models.yolo - INFO -  98                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,104 - models.yolo - INFO -  99                -1  1    590336  物体检测.YOLO_LEARN.models.common.Conv      [256, 256, 3, 1]
+2025-05-19 15:26:55,104 - models.yolo - INFO - 100[-1, -2, -3, -4, -5, -6]  1         0  物体检测.YOLO_LEARN.models.common.Concat    [1]
+2025-05-19 15:26:55,106 - models.yolo - INFO - 101                -1  1   1049600  物体检测.YOLO_LEARN.models.common.Conv      [2048, 512, 1, 1]
+2025-05-19 15:26:55,108 - models.yolo - INFO - 102                75  1    328704  物体检测.YOLO_LEARN.models.common.RepConv   [128, 256, 3, 1]
+2025-05-19 15:26:55,113 - models.yolo - INFO - 103                88  1   1312768  物体检测.YOLO_LEARN.models.common.RepConv   [256, 512, 3, 1]
+2025-05-19 15:26:55,127 - models.yolo - INFO - 104               101  1   5246976  物体检测.YOLO_LEARN.models.common.RepConv   [512, 1024, 3, 1]
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 234, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 70, in train
+    model = Model(opt.cfg, ch=3, nc=6, anchors=hyp.get('anchors')).to(device)  # create
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 266, in __init__
+    self.model,self.save=parse_model(deepcopy((self.yaml)),ch=[ch])
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 454, in parse_model
+    m_ = nn.Sequential(*[m(*args) for _ in range(n)]) if n > 1 else m(*args)  # module
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 32, in __init__
+    self.register_buffer('anchors', a)  # shape(nl,na,2)
+  File "D:\项目\微调\.venv\lib\site-packages\torch\nn\modules\module.py", line 504, in register_buffer
+    raise AttributeError(
+AttributeError: cannot assign buffer before Module.__init__() call
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 234, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 70, in train
+    model = Model(opt.cfg, ch=3, nc=6, anchors=hyp.get('anchors')).to(device)  # create
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 266, in __init__
+    self.model,self.save=parse_model(deepcopy((self.yaml)),ch=[ch])
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 454, in parse_model
+    m_ = nn.Sequential(*[m(*args) for _ in range(n)]) if n > 1 else m(*args)  # module
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 32, in __init__
+    self.register_buffer('anchors', a)  # shape(nl,na,2)
+  File "D:\项目\微调\.venv\lib\site-packages\torch\nn\modules\module.py", line 504, in register_buffer
+    raise AttributeError(
+AttributeError: cannot assign buffer before Module.__init__() call

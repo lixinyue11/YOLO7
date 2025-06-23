@@ -1,0 +1,1 @@
+{'download': 'bash ./scripts/get_coco.sh', 'train': 'D:\\\\PycharmProject\\\\yolov7-main\\\\NEU-DET\\\\train.txt', 'val': 'D:\\\\PycharmProject\\\\yolov7-main\\\\NEU-DET\\\\val.txt', 'nc': 6, 'names': ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']}

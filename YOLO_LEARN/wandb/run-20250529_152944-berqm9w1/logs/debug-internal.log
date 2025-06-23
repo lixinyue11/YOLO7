@@ -1,0 +1,8 @@
+{"time":"2025-05-29T15:29:44.2008184+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250529_152944-berqm9w1\\logs\\debug-core.log"}
+{"time":"2025-05-29T15:29:44.8656367+08:00","level":"INFO","msg":"created new stream","id":"berqm9w1"}
+{"time":"2025-05-29T15:29:44.8656367+08:00","level":"INFO","msg":"stream: started","id":"berqm9w1"}
+{"time":"2025-05-29T15:29:44.8676425+08:00","level":"INFO","msg":"handler: started","stream_id":"berqm9w1"}
+{"time":"2025-05-29T15:29:44.8676425+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"berqm9w1"}
+{"time":"2025-05-29T15:29:44.8676425+08:00","level":"INFO","msg":"sender: started","stream_id":"berqm9w1"}
+{"time":"2025-05-29T15:29:45.4993038+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T16:07:36.5577428+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOR/berqm9w1/file_stream\": read tcp 127.0.0.1:55889->127.0.0.1:7890: wsarecv: An existing connection was forcibly closed by the remote host."}

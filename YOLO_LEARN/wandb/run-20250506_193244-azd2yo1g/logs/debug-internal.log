@@ -1,0 +1,6 @@
+{"time":"2025-05-06T19:32:44.4944639+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250506_193244-azd2yo1g\\logs\\debug-core.log"}
+{"time":"2025-05-06T19:32:44.9105958+08:00","level":"INFO","msg":"created new stream","id":"azd2yo1g"}
+{"time":"2025-05-06T19:32:44.9105958+08:00","level":"INFO","msg":"stream: started","id":"azd2yo1g"}
+{"time":"2025-05-06T19:32:44.9105958+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"azd2yo1g"}
+{"time":"2025-05-06T19:32:44.9105958+08:00","level":"INFO","msg":"handler: started","stream_id":"azd2yo1g"}
+{"time":"2025-05-06T19:32:44.9105958+08:00","level":"INFO","msg":"sender: started","stream_id":"azd2yo1g"}

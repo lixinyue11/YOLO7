@@ -1,0 +1,19 @@
+{"time":"2025-05-27T16:13:51.527548+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250527_161351-fufxzgs1\\logs\\debug-core.log"}
+{"time":"2025-05-27T16:13:52.2167362+08:00","level":"INFO","msg":"created new stream","id":"fufxzgs1"}
+{"time":"2025-05-27T16:13:52.2167362+08:00","level":"INFO","msg":"stream: started","id":"fufxzgs1"}
+{"time":"2025-05-27T16:13:52.2167362+08:00","level":"INFO","msg":"handler: started","stream_id":"fufxzgs1"}
+{"time":"2025-05-27T16:13:52.2167362+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"fufxzgs1"}
+{"time":"2025-05-27T16:13:52.2167362+08:00","level":"INFO","msg":"sender: started","stream_id":"fufxzgs1"}
+{"time":"2025-05-27T16:13:52.930011+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-27T17:33:14.0125505+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOR/fufxzgs1/file_stream\": read tcp 127.0.0.1:57604->127.0.0.1:7890: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-27T17:49:44.0079107+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOR/fufxzgs1/file_stream\": read tcp 127.0.0.1:62157->127.0.0.1:7890: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-27T17:52:42.1967533+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOR/fufxzgs1/file_stream\": EOF"}
+{"time":"2025-05-27T18:02:59.0121338+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOR/fufxzgs1/file_stream\": read tcp 127.0.0.1:50240->127.0.0.1:7890: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-27T18:08:49.1954105+08:00","level":"INFO","msg":"stream: closing","id":"fufxzgs1"}
+{"time":"2025-05-27T18:08:49.1954105+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-27T18:08:49.1954105+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-27T18:08:50.3450111+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-27T18:08:50.9862512+08:00","level":"INFO","msg":"handler: closed","stream_id":"fufxzgs1"}
+{"time":"2025-05-27T18:08:50.9862512+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fufxzgs1"}
+{"time":"2025-05-27T18:08:50.9862512+08:00","level":"INFO","msg":"sender: closed","stream_id":"fufxzgs1"}
+{"time":"2025-05-27T18:08:50.9862512+08:00","level":"INFO","msg":"stream: closed","id":"fufxzgs1"}

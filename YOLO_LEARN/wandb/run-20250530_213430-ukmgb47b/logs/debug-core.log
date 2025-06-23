@@ -1,0 +1,6 @@
+{"time":"2025-05-30T21:34:28.9665135+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpykzlovvb\\port-10788.txt","pid":10788,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-30T21:34:28.9706598+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":10788}
+{"time":"2025-05-30T21:34:28.9706598+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":55880,"Zone":""}}
+{"time":"2025-05-30T21:34:29.1041418+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:55881"}
+{"time":"2025-05-30T21:34:30.2090124+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"ukmgb47b","id":"127.0.0.1:55881"}
+{"time":"2025-05-30T21:34:31.2301647+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"ukmgb47b","id":"127.0.0.1:55881"}

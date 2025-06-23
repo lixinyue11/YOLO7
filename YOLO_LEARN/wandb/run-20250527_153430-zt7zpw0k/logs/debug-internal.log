@@ -1,0 +1,11 @@
+{"time":"2025-05-27T15:34:30.4683294+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250527_153430-zt7zpw0k\\logs\\debug-core.log"}
+{"time":"2025-05-27T15:34:31.1891029+08:00","level":"INFO","msg":"created new stream","id":"zt7zpw0k"}
+{"time":"2025-05-27T15:34:31.1891029+08:00","level":"INFO","msg":"stream: started","id":"zt7zpw0k"}
+{"time":"2025-05-27T15:34:31.1891029+08:00","level":"INFO","msg":"handler: started","stream_id":"zt7zpw0k"}
+{"time":"2025-05-27T15:34:31.1891029+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"zt7zpw0k"}
+{"time":"2025-05-27T15:34:31.1896059+08:00","level":"INFO","msg":"sender: started","stream_id":"zt7zpw0k"}
+{"time":"2025-05-27T15:34:31.8962711+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-27T15:34:52.979363+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOV7/zt7zpw0k/file_stream\": read tcp 127.0.0.1:57836->127.0.0.1:7890: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-27T15:35:06.6913389+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": unexpected EOF"}
+{"time":"2025-05-27T15:36:06.2438288+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOV7/zt7zpw0k/file_stream\": unexpected EOF"}
+{"time":"2025-05-27T15:40:51.9126963+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOV7/zt7zpw0k/file_stream\": read tcp 127.0.0.1:52535->127.0.0.1:7890: wsarecv: An existing connection was forcibly closed by the remote host."}

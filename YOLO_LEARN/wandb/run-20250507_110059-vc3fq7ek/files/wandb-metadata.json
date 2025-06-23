@@ -1,0 +1,57 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.3",
+  "startedAt": "2025-05-07T03:01:00.005560Z",
+  "args": [
+    "--workers",
+    "1",
+    "--device",
+    "0",
+    "--batch-size",
+    "4",
+    "--data",
+    "data/neu.yaml",
+    "--cfg",
+    "cfg/training/yolov7.yaml",
+    "--weights",
+    "yolov7.pt",
+    "--name",
+    "yolov7",
+    "--hyp",
+    "data/hyp.scratch.p5.yaml",
+    "--epochs",
+    "20"
+  ],
+  "program": "D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\train.py",
+  "codePath": "train.py",
+  "root": "D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN",
+  "host": "H-C1T",
+  "executable": "D:\\项目\\微调\\.venv\\Scripts\\python.exe",
+  "codePathLocal": "train.py",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "785347448832",
+      "used": "48624902144"
+    }
+  },
+  "memory": {
+    "total": "34119614464"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+      "memoryTotal": "17179869184",
+      "cudaCores": 7424,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.7"
+}

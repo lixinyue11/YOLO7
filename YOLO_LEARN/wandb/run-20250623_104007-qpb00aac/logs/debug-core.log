@@ -1,0 +1,5 @@
+{"time":"2025-06-23T10:39:57.6348894+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpdbsqa5u8\\port-26912.txt","pid":26912,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-06-23T10:39:57.6679377+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":26912}
+{"time":"2025-06-23T10:39:57.6679377+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":51140,"Zone":""}}
+{"time":"2025-06-23T10:39:57.7628752+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:51141"}
+{"time":"2025-06-23T10:40:07.860843+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"qpb00aac","id":"127.0.0.1:51141"}

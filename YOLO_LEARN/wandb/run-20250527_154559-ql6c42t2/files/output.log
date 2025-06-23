@@ -1,0 +1,13 @@
+2025-05-27 15:46:01,587 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Event.wait() running at D:\python310\lib\asyncio\locks.py:213> wait_for=<Future cancelled>>
+2025-05-27 15:46:01,731 - models.yolo - INFO - Overriding model.yaml nc=80 with nc=6
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 701, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 85, in train
+    model = Model(opt.cfg or ckpt['model'].yaml, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)##根据配置文件创建一个新的模型
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 329, in __init__
+    self.model,self.save=parse_model(deepcopy((self.yaml)),ch=[ch])
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\models\yolo.py", line 499, in parse_model
+    logger.info('\n%3s%18s%3s%10s  %-40s%-30s' % ('', 'from', 'n', 'params', 'module', 'arguments'))
+KeyboardInterrupt

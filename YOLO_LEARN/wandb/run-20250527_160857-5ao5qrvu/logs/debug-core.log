@@ -1,0 +1,6 @@
+{"time":"2025-05-27T16:08:56.6026511+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmps_mluu5c\\port-13568.txt","pid":13568,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-27T16:08:56.6042327+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":13568}
+{"time":"2025-05-27T16:08:56.6042327+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":54681,"Zone":""}}
+{"time":"2025-05-27T16:08:56.8016208+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:54683"}
+{"time":"2025-05-27T16:08:57.6676561+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"5ao5qrvu","id":"127.0.0.1:54683"}
+{"time":"2025-05-27T16:08:58.3680504+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"5ao5qrvu","id":"127.0.0.1:54683"}

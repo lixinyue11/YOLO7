@@ -1,0 +1,7 @@
+{"time":"2025-05-28T16:52:17.6688259+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmprnbs9ogt\\port-10592.txt","pid":10592,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-28T16:52:17.7108735+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":10592}
+{"time":"2025-05-28T16:52:17.7108735+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":53205,"Zone":""}}
+{"time":"2025-05-28T16:52:17.8590757+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:53206"}
+{"time":"2025-05-28T16:52:18.7521207+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"iemfyggk","id":"127.0.0.1:53206"}
+{"time":"2025-05-28T16:52:19.4585896+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"iemfyggk","id":"127.0.0.1:53206"}
+{"time":"2025-05-28T16:52:40.7376146+08:00","level":"ERROR","msg":"connection: fatal error reading connection","error":"read tcp 127.0.0.1:53205->127.0.0.1:53206: wsarecv: An existing connection was forcibly closed by the remote host.","id":"127.0.0.1:53206"}

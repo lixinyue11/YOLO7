@@ -1,0 +1,38 @@
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_setup.py:_flush():68] Configure stats pid to 22928
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Administrator\.config\wandb\settings
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_setup.py:_flush():68] Loading settings from D:\项目\咕泡项目\物体检测\YOLO_LEARN\wandb\settings
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_init.py:setup_run_log_directory():724] Logging user logs to D:\项目\咕泡项目\物体检测\YOLO_LEARN\wandb\run-20250506_175222-cqru9gt9\logs\debug.log
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to D:\项目\咕泡项目\物体检测\YOLO_LEARN\wandb\run-20250506_175222-cqru9gt9\logs\debug-internal.log
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_init.py:init():852] calling init triggers
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov7.pt', 'cfg': 'cfg/training/yolov7.yaml', 'data': 'data/neu.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.1, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.3, 'cls_pw': 1.0, 'obj': 0.7, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.2, 'scale': 0.9, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.15, 'copy_paste': 0.0, 'paste_in': 0.15, 'loss_ota': 1}, 'epochs': 20, 'batch_size': 4, 'img_size': [640, 640], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evole': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'local_rank': -1, 'workers': 1, 'project': 'runs/train', 'entity': None, 'name': 'yolov7', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'freeze': [0], 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs\\train\\yolov7', 'total_batch_size': 4, '_wandb': {}}
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_init.py:init():893] starting backend
+2025-05-06 17:52:22,993 INFO    MainThread:22928 [wandb_init.py:init():897] sending inform_init request
+2025-05-06 17:52:23,000 INFO    MainThread:22928 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-06 17:52:23,000 INFO    MainThread:22928 [wandb_init.py:init():907] backend started and connected
+2025-05-06 17:52:23,001 INFO    MainThread:22928 [wandb_init.py:init():1002] updated telemetry
+2025-05-06 17:52:23,001 INFO    MainThread:22928 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-06 17:52:24,002 WARNING MainThread:22928 [wandb_init.py:init():1654] [no run ID] interrupted
+Traceback (most recent call last):
+  File "D:\项目\微调\.venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1650, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "D:\项目\微调\.venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1052, in init
+    result = wait_with_progress(
+  File "D:\项目\微调\.venv\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "D:\项目\微调\.venv\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 70, in wait_all_with_progress
+    return _wait_handles(handle_list, timeout=progress_after)
+  File "D:\项目\微调\.venv\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 110, in _wait_handles
+    results.append(handle.wait_or(timeout=remaining_timeout))
+  File "D:\项目\微调\.venv\lib\site-packages\wandb\sdk\mailbox\mailbox_handle.py", line 122, in wait_or
+    return self._fn(self._handle.wait_or(timeout=timeout))
+  File "D:\项目\微调\.venv\lib\site-packages\wandb\sdk\mailbox\response_handle.py", line 88, in wait_or
+    if not self._event.wait(timeout=timeout):
+  File "D:\python310\lib\threading.py", line 600, in wait
+    signaled = self._cond.wait(timeout)
+  File "D:\python310\lib\threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2025-05-06 17:52:24,024 INFO    MsgRouterThr:22928 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.

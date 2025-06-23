@@ -1,0 +1,15 @@
+{"time":"2025-05-06T18:26:51.4858359+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250506_182651-6gf8dd7r\\logs\\debug-core.log"}
+{"time":"2025-05-06T18:26:51.9304296+08:00","level":"INFO","msg":"created new stream","id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:51.9304296+08:00","level":"INFO","msg":"stream: started","id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:51.9304296+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:51.9309317+08:00","level":"INFO","msg":"handler: started","stream_id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:51.9309317+08:00","level":"INFO","msg":"sender: started","stream_id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:52.5665659+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-06T18:26:52.9767783+08:00","level":"INFO","msg":"stream: closing","id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:52.9767783+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-06T18:26:52.9767783+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-06T18:26:54.1830577+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-06T18:26:54.6087647+08:00","level":"INFO","msg":"handler: closed","stream_id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:54.6087647+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:54.6087647+08:00","level":"INFO","msg":"sender: closed","stream_id":"6gf8dd7r"}
+{"time":"2025-05-06T18:26:54.6087647+08:00","level":"INFO","msg":"stream: closed","id":"6gf8dd7r"}

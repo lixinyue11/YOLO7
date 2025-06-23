@@ -1,0 +1,7 @@
+{"time":"2025-05-27T16:08:57.6676561+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250527_160857-5ao5qrvu\\logs\\debug-core.log"}
+{"time":"2025-05-27T16:08:58.3680504+08:00","level":"INFO","msg":"created new stream","id":"5ao5qrvu"}
+{"time":"2025-05-27T16:08:58.3680504+08:00","level":"INFO","msg":"stream: started","id":"5ao5qrvu"}
+{"time":"2025-05-27T16:08:58.3686193+08:00","level":"INFO","msg":"handler: started","stream_id":"5ao5qrvu"}
+{"time":"2025-05-27T16:08:58.3686193+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"5ao5qrvu"}
+{"time":"2025-05-27T16:08:58.3686193+08:00","level":"INFO","msg":"sender: started","stream_id":"5ao5qrvu"}
+{"time":"2025-05-27T16:08:59.0514488+08:00","level":"INFO","msg":"Starting system monitor"}

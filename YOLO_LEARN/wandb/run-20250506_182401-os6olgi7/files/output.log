@@ -1,0 +1,25 @@
+yolov7.pt
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 139, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 58, in train
+    ckpt=torch.load(weights,map_location=device,weights_only=False)
+  File "D:\项目\微调\.venv\lib\site-packages\torch\serialization.py", line 1097, in load
+    return _load(
+  File "D:\项目\微调\.venv\lib\site-packages\torch\serialization.py", line 1525, in _load
+    result = unpickler.load()
+  File "D:\项目\微调\.venv\lib\site-packages\torch\serialization.py", line 1515, in find_class
+    return super().find_class(mod_name, name)
+ModuleNotFoundError: No module named 'models.common'
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 139, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 58, in train
+    ckpt=torch.load(weights,map_location=device,weights_only=False)
+  File "D:\项目\微调\.venv\lib\site-packages\torch\serialization.py", line 1097, in load
+    return _load(
+  File "D:\项目\微调\.venv\lib\site-packages\torch\serialization.py", line 1525, in _load
+    result = unpickler.load()
+  File "D:\项目\微调\.venv\lib\site-packages\torch\serialization.py", line 1515, in find_class
+    return super().find_class(mod_name, name)
+ModuleNotFoundError: No module named 'models.common'

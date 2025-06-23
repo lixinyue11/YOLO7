@@ -1,0 +1,13 @@
+{"time":"2025-05-27T15:05:56.995401+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpk9zr3p36\\port-13980.txt","pid":13980,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-27T15:05:56.9971003+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":13980}
+{"time":"2025-05-27T15:05:56.9971003+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":62004,"Zone":""}}
+{"time":"2025-05-27T15:05:57.1864691+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:05:58.0585604+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"tbns82tn","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:05:58.7303291+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"tbns82tn","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:06:05.9413128+08:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:06:05.9413128+08:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:06:05.9413128+08:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-05-27T15:06:05.9413128+08:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:06:07.8218459+08:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:06:07.8218459+08:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:62005"}
+{"time":"2025-05-27T15:06:07.8218459+08:00","level":"INFO","msg":"server is closed"}

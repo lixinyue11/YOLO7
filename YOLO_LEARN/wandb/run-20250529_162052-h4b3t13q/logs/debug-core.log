@@ -1,0 +1,7 @@
+{"time":"2025-05-29T16:20:51.4680966+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpn3is60ho\\port-9196.txt","pid":9196,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-29T16:20:51.4691231+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":9196}
+{"time":"2025-05-29T16:20:51.4691231+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":61762,"Zone":""}}
+{"time":"2025-05-29T16:20:51.6653669+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:61763"}
+{"time":"2025-05-29T16:20:52.817342+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"h4b3t13q","id":"127.0.0.1:61763"}
+{"time":"2025-05-29T16:20:53.4614132+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"h4b3t13q","id":"127.0.0.1:61763"}
+{"time":"2025-05-29T18:10:12.2043064+08:00","level":"ERROR","msg":"connection: fatal error reading connection","error":"read tcp 127.0.0.1:61762->127.0.0.1:61763: wsarecv: An existing connection was forcibly closed by the remote host.","id":"127.0.0.1:61763"}

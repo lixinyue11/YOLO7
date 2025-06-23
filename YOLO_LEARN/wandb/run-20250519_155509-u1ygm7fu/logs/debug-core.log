@@ -1,0 +1,10 @@
+{"time":"2025-05-19T15:55:08.2453654+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmp17whsqe_\\port-8420.txt","pid":8420,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-19T15:55:08.291143+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":8420}
+{"time":"2025-05-19T15:55:08.291143+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":61832,"Zone":""}}
+{"time":"2025-05-19T15:55:08.4376489+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:61833"}
+{"time":"2025-05-19T15:55:09.7256658+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"u1ygm7fu","id":"127.0.0.1:61833"}
+{"time":"2025-05-19T15:55:10.7403569+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"u1ygm7fu","id":"127.0.0.1:61833"}
+{"time":"2025-05-19T15:55:13.0332941+08:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:61833"}
+{"time":"2025-05-19T15:55:13.0332941+08:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:61833"}
+{"time":"2025-05-19T15:55:13.0332941+08:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-05-19T15:55:13.0332941+08:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:61833"}

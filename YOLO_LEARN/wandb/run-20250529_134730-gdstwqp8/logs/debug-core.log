@@ -1,0 +1,6 @@
+{"time":"2025-05-29T13:47:29.5553378+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpdks1js0y\\port-11604.txt","pid":11604,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-29T13:47:29.5964402+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":63557,"Zone":""}}
+{"time":"2025-05-29T13:47:29.5964402+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":11604}
+{"time":"2025-05-29T13:47:29.7583079+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:63558"}
+{"time":"2025-05-29T13:47:30.6291812+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"gdstwqp8","id":"127.0.0.1:63558"}
+{"time":"2025-05-29T13:47:31.3157901+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"gdstwqp8","id":"127.0.0.1:63558"}

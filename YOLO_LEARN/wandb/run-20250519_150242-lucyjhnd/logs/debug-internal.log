@@ -1,0 +1,16 @@
+{"time":"2025-05-19T15:02:43.0020819+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\项目\\咕泡项目\\物体检测\\YOLO_LEARN\\wandb\\run-20250519_150242-lucyjhnd\\logs\\debug-core.log"}
+{"time":"2025-05-19T15:02:44.0242702+08:00","level":"INFO","msg":"created new stream","id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:44.0242702+08:00","level":"INFO","msg":"stream: started","id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:44.0242702+08:00","level":"INFO","msg":"handler: started","stream_id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:44.0242702+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:44.0252745+08:00","level":"INFO","msg":"sender: started","stream_id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:45.0217427+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-19T15:02:46.6609289+08:00","level":"INFO","msg":"stream: closing","id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:46.6609289+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-19T15:02:46.6609289+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-19T15:02:48.1672192+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-19T15:02:53.177145+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2569494688-computer/YOLOV7/lucyjhnd/file_stream\": read tcp 127.0.0.1:55850->127.0.0.1:7890: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-19T15:02:56.6831489+08:00","level":"INFO","msg":"handler: closed","stream_id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:56.6831489+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:56.6831489+08:00","level":"INFO","msg":"sender: closed","stream_id":"lucyjhnd"}
+{"time":"2025-05-19T15:02:56.6836523+08:00","level":"INFO","msg":"stream: closed","id":"lucyjhnd"}

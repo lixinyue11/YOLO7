@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 129, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 46, in train
+    wandb_logger=WandbLogger(opt, Path(opt.save_dir).stem, run_id, data_dict)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\utils\wandb_logging\wandb_utils.py", line 66, in __init__
+    self.data_dict=self.setup_training(opt,data_dict)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\utils\wandb_logging\wandb_utils.py", line 72, in setup_training
+    self.train_artifact_path,self.train_artifact=self.download_dataset_artifact(data_dict.get('train', opt.artifact_alias))
+TypeError: WandbLogger.download_dataset_artifact() missing 1 required positional argument: 'alias'
+Traceback (most recent call last):
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 129, in <module>
+    train(hyp,opt,device,tb_writer)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\train.py", line 46, in train
+    wandb_logger=WandbLogger(opt, Path(opt.save_dir).stem, run_id, data_dict)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\utils\wandb_logging\wandb_utils.py", line 66, in __init__
+    self.data_dict=self.setup_training(opt,data_dict)
+  File "D:\项目\咕泡项目\物体检测\YOLO_LEARN\utils\wandb_logging\wandb_utils.py", line 72, in setup_training
+    self.train_artifact_path,self.train_artifact=self.download_dataset_artifact(data_dict.get('train', opt.artifact_alias))
+TypeError: WandbLogger.download_dataset_artifact() missing 1 required positional argument: 'alias'

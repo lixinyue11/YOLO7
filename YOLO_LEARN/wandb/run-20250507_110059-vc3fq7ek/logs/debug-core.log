@@ -1,0 +1,13 @@
+{"time":"2025-05-07T11:00:49.886908+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpzwhd0kim\\port-17168.txt","pid":17168,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-07T11:00:49.8936219+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":17168}
+{"time":"2025-05-07T11:00:49.8936219+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":64324,"Zone":""}}
+{"time":"2025-05-07T11:00:49.9145808+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:00.0129234+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"vc3fq7ek","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:00.6189844+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"vc3fq7ek","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:01.7092068+08:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:01.7098391+08:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:01.7098391+08:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-05-07T11:01:01.7103613+08:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:03.2927591+08:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:03.2927591+08:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:64325"}
+{"time":"2025-05-07T11:01:03.2927591+08:00","level":"INFO","msg":"server is closed"}

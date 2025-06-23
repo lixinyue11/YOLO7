@@ -1,0 +1,7 @@
+{"time":"2025-05-28T16:35:39.1876975+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpe_eizgqc\\port-2588.txt","pid":2588,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-28T16:35:39.1893193+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":2588}
+{"time":"2025-05-28T16:35:39.1893193+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":54949,"Zone":""}}
+{"time":"2025-05-28T16:35:39.3871201+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:54950"}
+{"time":"2025-05-28T16:35:40.2461206+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"ojhxplet","id":"127.0.0.1:54950"}
+{"time":"2025-05-28T16:35:40.9837214+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"ojhxplet","id":"127.0.0.1:54950"}
+{"time":"2025-05-28T16:36:57.9738172+08:00","level":"ERROR","msg":"connection: fatal error reading connection","error":"read tcp 127.0.0.1:54949->127.0.0.1:54950: wsarecv: An existing connection was forcibly closed by the remote host.","id":"127.0.0.1:54950"}

@@ -1,0 +1,6 @@
+{"time":"2025-05-28T17:00:40.1764362+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpysdvclwa\\port-13936.txt","pid":13936,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-28T17:00:40.1779865+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":13936}
+{"time":"2025-05-28T17:00:40.1779865+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":56774,"Zone":""}}
+{"time":"2025-05-28T17:00:40.3735011+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:56775"}
+{"time":"2025-05-28T17:00:41.2768134+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"i0zqmrce","id":"127.0.0.1:56775"}
+{"time":"2025-05-28T17:00:41.9606894+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"i0zqmrce","id":"127.0.0.1:56775"}

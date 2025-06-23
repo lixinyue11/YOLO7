@@ -1,0 +1,13 @@
+{"time":"2025-05-06T18:25:07.2919963+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpwtj_wkoz\\port-4148.txt","pid":4148,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-06T18:25:07.2930701+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":4148}
+{"time":"2025-05-06T18:25:07.2930701+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":62970,"Zone":""}}
+{"time":"2025-05-06T18:25:07.4883682+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:08.1155904+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"i2udbs93","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:08.5381085+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"i2udbs93","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:09.6218869+08:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:09.6218869+08:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:09.6218869+08:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-05-06T18:25:09.6218869+08:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:11.1790408+08:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:11.1790408+08:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:62971"}
+{"time":"2025-05-06T18:25:11.1790408+08:00","level":"INFO","msg":"server is closed"}

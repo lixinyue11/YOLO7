@@ -1,0 +1,6 @@
+{"time":"2025-05-29T18:13:11.0398236+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmps4cmmh8d\\port-20176.txt","pid":20176,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-29T18:13:11.0422141+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":20176}
+{"time":"2025-05-29T18:13:11.0422141+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":52526,"Zone":""}}
+{"time":"2025-05-29T18:13:11.2279981+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:52527"}
+{"time":"2025-05-29T18:13:12.1747904+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"juoft1xd","id":"127.0.0.1:52527"}
+{"time":"2025-05-29T18:13:12.86335+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"juoft1xd","id":"127.0.0.1:52527"}

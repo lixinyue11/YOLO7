@@ -1,0 +1,13 @@
+{"time":"2025-05-06T17:59:09.7872889+08:00","level":"INFO","msg":"main: starting server","port-filename":"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpb0giswqt\\port-22784.txt","pid":22784,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-06T17:59:09.7893577+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":22784}
+{"time":"2025-05-06T17:59:09.7893577+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":60785,"Zone":""}}
+{"time":"2025-05-06T17:59:09.9813804+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:10.5485414+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"cmd2cho3","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:10.9913208+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"cmd2cho3","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:12.0286878+08:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:12.0290072+08:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:12.0290072+08:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-05-06T17:59:12.0290072+08:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:13.6278022+08:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:13.6278022+08:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:60786"}
+{"time":"2025-05-06T17:59:13.6278022+08:00","level":"INFO","msg":"server is closed"}
